@@ -1,0 +1,22 @@
+GET http://localhost:4000/api/tasks
+###
+
+POST http://localhost:4000/api/tasks
+Content-Type: application/json
+
+{
+    "task":"tasks",
+    "compleated": false
+}
+
+###
+PUT http://localhost:4000/api/tasks/61f4d79a8b9dea6db09d4ff8
+Content-Type: application/json
+
+{
+    "task":"tasks update",
+    "compleated": false
+}
+
+###
+DELETE  http://localhost:4000/api/tasks/61f4d92a8b9dea6db09d4fff
